@@ -264,7 +264,7 @@ export const chartData = [
 ### 必須遵守的規則
 
 1. **日期格式**: 統一使用 `YYYY-MM-DD` 格式（如 `2025-11-08`）
-2. **Issue ID 格式**: 統一使用 `ISSUE-` 開頭加數字（如 `ISSUE-102`）
+2. **Issue ID 格式**: demo先以格式 `ISSUE-` 開頭加數字（如 `ISSUE-102`），實際上follow bugzilla格式
 3. **團隊名稱**: 必須與 `teams` 陣列中的名稱完全一致（大小寫敏感）
 4. **專案代號**: 在 `projects.js` 中定義後才能在 Issues 中使用
 5. **失敗率範圍**: 0-10 的整數
